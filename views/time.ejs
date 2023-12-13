@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 서버의 시간 -->
+  <p>현재 서버 시간: <%= date %></p>
+  <p>현재 서버 시간(밀리초): <%= datetime %></p>
+
+  <!-- 아래 ejs 코드도 서버에서 실행됨 -->
+  <p>현재 서버 시간: <%= new Date() %></p>
+  <p>현재 서버 시간(밀리초): <%= Date.now() %></p>
+</body>
+</html>
